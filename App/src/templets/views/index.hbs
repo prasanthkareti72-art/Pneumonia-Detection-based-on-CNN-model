@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pneumonia Detection</title>
+</head>
+<body>
+  <h2>Upload Chest X-ray for Pneumonia Detection</h2>
+  <form id="uploadForm" enctype="multipart/form-data" method="POST" action="/home">
+    <input type="text" name="first_name" placeholder="First Name" required />
+    <input type="text" name="last_name" placeholder="Last Name" required />
+    <input type="email" name="email" placeholder="Email" required />
+    <input type="number" name="age" placeholder="Age" required />
+    <select name="gender" required>
+      <option value="">Select Gender</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select>
+    <input type="file" name="image" accept="image/*" required />
+    <label><input type="checkbox" name="report" value="yes" /> Email me the report</label>
+    <button type="submit">Predict</button>
+  </form>
+</body>
+</html>

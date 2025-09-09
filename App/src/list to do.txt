@@ -1,0 +1,21 @@
+go to src folder and run this 
+
+pip install keras uvicorn pydantic pillow fastapi
+fapp
+
+python -m uvicorn fapp:app --reload
+
+------------------------------------------------------------
+go to cmd 
+
+
+npm install
+
+check if installed or not 
+
+npm --version
+----------------------------------------------------------
+node src/app.js
+
+-------------------------------
+127.0.0.1:3000
